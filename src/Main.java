@@ -13,6 +13,6 @@ public class Main {
 	userManager.Add(student);
 
 	StudentManager studentManager = new StudentManager();
-	studentManager.RegisterCourse(new FileLogger());
+	studentManager.add(new FileLogger());
     }
 }
