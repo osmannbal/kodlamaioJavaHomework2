@@ -7,7 +7,7 @@ public class Student extends User{
 
     public Student(int studentNumber){
         this();
-        this.setStudentNumber(studentNumber);
+        this.studentNumber =studentNumber;
     }
 
     public int getStudentNumber() {
