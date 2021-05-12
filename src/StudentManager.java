@@ -1,6 +1,16 @@
 public class StudentManager {
-    public void RegisterCourse(Logger logger){
-        System.out.println("Kursa kayıt olundu.");
+    public void add(Logger logger){
+        System.out.println("Öğrenci eklendi.");
+        logger.Log();
+    }
+
+    public void update(Logger logger){
+        System.out.println("Öğrenci güncellendi.");
+        logger.Log();
+    }
+
+    public void delete(Logger logger){
+        System.out.println("Öğrenci silindi.");
         logger.Log();
     }
 }
